@@ -1,0 +1,391 @@
+{
+  "dataset": "Cho2017",
+  "task": "left_hand_vs_right_hand",
+  "mode": "full_source_pretraining",
+  "alignment": "subject_wise_RA_train_reference_only",
+  "target_dependent_dispersion_scaling": false,
+  "normalization": "global_scalar_train_only",
+  "global_train_mean": -0.014183156192302704,
+  "global_train_std": 1.4661153554916382,
+  "seed": 42,
+  "validation_fraction": 0.1,
+  "n_total": 9745,
+  "n_train": 8763,
+  "n_validation": 982,
+  "n_subjects_train": 52,
+  "n_subjects_validation": 52,
+  "class_counts_train": {
+    "0": 4400,
+    "1": 4363
+  },
+  "class_counts_validation": {
+    "0": 492,
+    "1": 490
+  },
+  "ra_subject_audit": [
+    {
+      "subject": "S01",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 87703.19089128888
+    },
+    {
+      "subject": "S02",
+      "n_train": 179,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 101082.80880015367
+    },
+    {
+      "subject": "S03",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 86831.02609805745
+    },
+    {
+      "subject": "S04",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 99128.24632813399
+    },
+    {
+      "subject": "S05",
+      "n_train": 179,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 69986.4925187653
+    },
+    {
+      "subject": "S06",
+      "n_train": 160,
+      "n_validation": 18,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 117632.75860545159
+    },
+    {
+      "subject": "S07",
+      "n_train": 215,
+      "n_validation": 24,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 98489.2693232021
+    },
+    {
+      "subject": "S08",
+      "n_train": 178,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 77317.2419905182
+    },
+    {
+      "subject": "S09",
+      "n_train": 216,
+      "n_validation": 24,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 74282.84360121527
+    },
+    {
+      "subject": "S10",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 80902.0346139173
+    },
+    {
+      "subject": "S11",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 52404.18107554172
+    },
+    {
+      "subject": "S12",
+      "n_train": 156,
+      "n_validation": 18,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 59006.483021393775
+    },
+    {
+      "subject": "S13",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 107017.68778053045
+    },
+    {
+      "subject": "S14",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 98401.93616045333
+    },
+    {
+      "subject": "S15",
+      "n_train": 171,
+      "n_validation": 19,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 72085.994815466
+    },
+    {
+      "subject": "S16",
+      "n_train": 179,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 42273.44913547584
+    },
+    {
+      "subject": "S17",
+      "n_train": 179,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 65371.997882926255
+    },
+    {
+      "subject": "S18",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 73066.68001418262
+    },
+    {
+      "subject": "S19",
+      "n_train": 129,
+      "n_validation": 14,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 67786.00478627693
+    },
+    {
+      "subject": "S20",
+      "n_train": 75,
+      "n_validation": 8,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 67606.29010855599
+    },
+    {
+      "subject": "S21",
+      "n_train": 179,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 78672.24518981305
+    },
+    {
+      "subject": "S22",
+      "n_train": 179,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 84901.69750195846
+    },
+    {
+      "subject": "S23",
+      "n_train": 177,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 80375.5498078564
+    },
+    {
+      "subject": "S24",
+      "n_train": 179,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 71321.6998493333
+    },
+    {
+      "subject": "S25",
+      "n_train": 175,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 102580.75280210136
+    },
+    {
+      "subject": "S26",
+      "n_train": 178,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 64783.572623345884
+    },
+    {
+      "subject": "S27",
+      "n_train": 165,
+      "n_validation": 19,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 91795.7709944557
+    },
+    {
+      "subject": "S28",
+      "n_train": 175,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 48520.2699643216
+    },
+    {
+      "subject": "S29",
+      "n_train": 19,
+      "n_validation": 2,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 85085.84031926485
+    },
+    {
+      "subject": "S30",
+      "n_train": 110,
+      "n_validation": 12,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 86363.36078623976
+    },
+    {
+      "subject": "S31",
+      "n_train": 179,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 32746.725179562105
+    },
+    {
+      "subject": "S32",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 55282.33475466153
+    },
+    {
+      "subject": "S33",
+      "n_train": 172,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 77429.40881640188
+    },
+    {
+      "subject": "S34",
+      "n_train": 14,
+      "n_validation": 2,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 72012.51625937458
+    },
+    {
+      "subject": "S35",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 109196.04878131699
+    },
+    {
+      "subject": "S36",
+      "n_train": 173,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 95113.88376771372
+    },
+    {
+      "subject": "S37",
+      "n_train": 176,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 67288.75253792609
+    },
+    {
+      "subject": "S38",
+      "n_train": 171,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 47994.263088940956
+    },
+    {
+      "subject": "S39",
+      "n_train": 179,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 87006.82867686382
+    },
+    {
+      "subject": "S40",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 89883.38605095929
+    },
+    {
+      "subject": "S41",
+      "n_train": 179,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 50440.59969612692
+    },
+    {
+      "subject": "S42",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 86410.5319385898
+    },
+    {
+      "subject": "S43",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 61892.8614224894
+    },
+    {
+      "subject": "S44",
+      "n_train": 178,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 62773.82457444517
+    },
+    {
+      "subject": "S45",
+      "n_train": 176,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 45131.33853909168
+    },
+    {
+      "subject": "S46",
+      "n_train": 215,
+      "n_validation": 24,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 91526.76427264605
+    },
+    {
+      "subject": "S47",
+      "n_train": 173,
+      "n_validation": 19,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 91785.30702627878
+    },
+    {
+      "subject": "S48",
+      "n_train": 179,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 61804.72702116722
+    },
+    {
+      "subject": "S49",
+      "n_train": 173,
+      "n_validation": 19,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 62855.800641156464
+    },
+    {
+      "subject": "S50",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 97469.46457104852
+    },
+    {
+      "subject": "S51",
+      "n_train": 174,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 107551.20404392194
+    },
+    {
+      "subject": "S52",
+      "n_train": 180,
+      "n_validation": 20,
+      "ra_reference": "subject_train_trials_only",
+      "whitening_frobenius_norm": 86504.02030178905
+    }
+  ]
+}

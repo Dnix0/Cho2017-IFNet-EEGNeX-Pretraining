@@ -1,0 +1,15 @@
+{
+  "checkpoint": "outputs_cho2017_fullsource_pretraining\\full\\ifnet\\seed42\\checkpoints\\ifnet_cho2017_fullsource_full_seed42_100ep_best.pth",
+  "checkpoint_sha256": "484cb27c04adeef9284d95365c4610e9671aafa96f87aa8bd4d79864c3140202",
+  "best_epoch": 75,
+  "best_validation_accuracy": 0.8156822810590632,
+  "best_validation_loss": 0.4325416617383782,
+  "validation_proxy_accuracy": 0.8156822810590632,
+  "strict_reload": true,
+  "dummy_forward_shape": [
+    4,
+    2
+  ],
+  "preprocessing_artifact": "outputs_cho2017_fullsource_pretraining\\full\\ifnet\\seed42\\audits\\preprocessing_artifact.json",
+  "note": "Validation is an internal source split for checkpoint selection; it is not an unseen-subject or patient-data performance claim."
+}

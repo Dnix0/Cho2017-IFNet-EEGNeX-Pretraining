@@ -1,0 +1,1 @@
+484cb27c04adeef9284d95365c4610e9671aafa96f87aa8bd4d79864c3140202  ifnet_cho2017_fullsource_full_seed42_100ep_best.pth

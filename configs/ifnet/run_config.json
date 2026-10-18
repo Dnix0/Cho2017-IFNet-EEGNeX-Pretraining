@@ -1,0 +1,17 @@
+{
+  "dataset": "Cho2017",
+  "task": "left_hand_vs_right_hand",
+  "mode": "full_source_pretraining",
+  "run_kind": "full",
+  "model": "ifnet",
+  "seed": 42,
+  "epochs": 100,
+  "batch_size": 64,
+  "validation_fraction": 0.1,
+  "alignment": "subject_wise_RA_train_reference_only",
+  "target_dependent_dispersion_scaling": false,
+  "normalization": "global_scalar_train_only",
+  "primary_handoff_tta": "OFF",
+  "ensemble_rule": "0.75_IFNet_plus_0.25_EEGNeX_probability",
+  "data_root": "<CHO2017_DATA_ROOT>"
+}

@@ -1,0 +1,15 @@
+{
+  "checkpoint": "outputs_cho2017_fullsource_pretraining\\full\\eegnex\\seed42\\checkpoints\\eegnex_cho2017_fullsource_full_seed42_50ep_best.pth",
+  "checkpoint_sha256": "2d9c14ad4a4cfdf40e7f05f8e0d7710d05ebfb55bfc338a34ad8086d6d5d05d0",
+  "best_epoch": 49,
+  "best_validation_accuracy": 0.8289205702647657,
+  "best_validation_loss": 0.374801694011494,
+  "validation_proxy_accuracy": 0.8289205702647657,
+  "strict_reload": true,
+  "dummy_forward_shape": [
+    4,
+    2
+  ],
+  "preprocessing_artifact": "outputs_cho2017_fullsource_pretraining\\full\\eegnex\\seed42\\audits\\preprocessing_artifact.json",
+  "note": "Validation is an internal source split for checkpoint selection; it is not an unseen-subject or patient-data performance claim."
+}

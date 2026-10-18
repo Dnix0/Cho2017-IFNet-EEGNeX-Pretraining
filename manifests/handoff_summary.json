@@ -1,0 +1,9 @@
+{
+  "handoff_directory": "<REPOSITORY_ROOT>",
+  "n_manifest_files": 20,
+  "primary_tta": "OFF",
+  "ensemble": {
+    "ifnet": 0.75,
+    "eegnex": 0.25
+  }
+}
