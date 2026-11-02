@@ -1,0 +1,13 @@
+{
+  "status": "READY_FOR_MANUAL_UPLOAD",
+  "output": "D:\\HS_Stroke_Project\\github_upload_packages\\Cho2017_ChannelSpecific_Update_V4_20261102",
+  "selected_count": 3,
+  "selected_files": [
+    "checkpoints/common10/ifnet/ifnet_cho2017_fullsource_full_seed42_100ep_best.pth",
+    "checkpoints/common10/eegnex/eegnex_cho2017_fullsource_full_seed42_50ep_best.pth",
+    "checkpoints/common6/ifnet/best.pt"
+  ],
+  "common8": "NOT_INCLUDED",
+  "missing_expected_paths": [],
+  "next": "Review README, manifest, and checklist, then upload through GitHub web or GitHub Desktop."
+}
