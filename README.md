@@ -1,3 +1,36 @@
+# Cho2017 IFNet·EEGNeX 채널별 사전학습 체크포인트
+
+## 한국어
+
+1. 저장소 개요
+2. 공개 checkpoint 요약
+3. 채널별 계보
+   - Legacy Full22
+   - Common10 IFNet
+   - Common10 EEGNeX
+   - Common6 IFNet
+   - Common8 미포함 사유
+4. checkpoint 선택 규칙
+5. 로딩 예시
+6. Cho2017 source validation
+7. HS Stroke downstream 결과
+8. 공개 범위와 개인정보 보호
+9. 폴더 구조 및 SHA-256
+
+---
+
+# English
+
+1. Overview
+2. Released checkpoints
+3. Channel-specific lineages
+4. Checkpoint selection
+5. Loading examples
+6. Cho2017 source validation
+7. HS Stroke downstream results
+8. Public-release scope
+9. Repository structure and integrity
+
 # Cho2017 IFNet / EEGNeX Pretraining Checkpoints
 
 > Channel-specific checkpoint release. Checkpoint tracks are not interchangeable.
