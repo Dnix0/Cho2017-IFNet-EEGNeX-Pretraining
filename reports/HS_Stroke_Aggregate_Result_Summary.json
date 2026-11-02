@@ -1,0 +1,123 @@
+{
+  "cohort": "HS Stroke longitudinal MI-EEG",
+  "independent_patients": 14,
+  "evaluation": "patient-held-out OOF",
+  "pretrained": {
+    "n_folds": 14,
+    "accuracy": {
+      "n": 14,
+      "mean": 0.5047871238366958,
+      "sd": 0.014520880645124832,
+      "min": 0.483125,
+      "max": 0.545
+    },
+    "balanced_accuracy": {
+      "n": 14,
+      "mean": 0.5047871238366958,
+      "sd": 0.014520880645124802,
+      "min": 0.48312499999999997,
+      "max": 0.5449999999999999
+    },
+    "macro_f1": {
+      "n": 14,
+      "mean": 0.47551277135806724,
+      "sd": 0.0361450738216349,
+      "min": 0.39952559254416997,
+      "max": 0.5109819153991997
+    },
+    "class0_recall": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "min": null,
+      "max": null
+    },
+    "class1_recall": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "min": null,
+      "max": null
+    }
+  },
+  "random_frozen": {
+    "n_folds": 14,
+    "accuracy": {
+      "n": 14,
+      "mean": 0.5002678571428572,
+      "sd": 0.0006808809742523883,
+      "min": 0.5,
+      "max": 0.5025
+    },
+    "balanced_accuracy": {
+      "n": 14,
+      "mean": 0.5002678571428572,
+      "sd": 0.0006808809742523883,
+      "min": 0.5,
+      "max": 0.5025
+    },
+    "macro_f1": {
+      "n": 14,
+      "mean": 0.3340054514522156,
+      "sd": 0.0015787655764297752,
+      "min": 0.3333333333333333,
+      "max": 0.33886494073871043
+    },
+    "class0_recall": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "min": null,
+      "max": null
+    },
+    "class1_recall": {
+      "n": 0,
+      "mean": null,
+      "sd": null,
+      "min": null,
+      "max": null
+    }
+  },
+  "paired": {
+    "accuracy": {
+      "n": 14,
+      "mean_difference": 0.004519266693838738,
+      "wins": 9,
+      "ties": 1,
+      "losses": 4
+    },
+    "balanced_accuracy": {
+      "n": 14,
+      "mean_difference": 0.004519266693838735,
+      "wins": 9,
+      "ties": 1,
+      "losses": 4
+    },
+    "macro_f1": {
+      "n": 14,
+      "mean_difference": 0.14150731990585158,
+      "wins": 14,
+      "ties": 0,
+      "losses": 0
+    },
+    "class0_recall": {
+      "n": 0,
+      "mean_difference": null,
+      "wins": 0,
+      "ties": 0,
+      "losses": 0
+    },
+    "class1_recall": {
+      "n": 0,
+      "mean_difference": null,
+      "wins": 0,
+      "ties": 0,
+      "losses": 0
+    }
+  },
+  "feature_package_rows": {
+    "assessment": 28,
+    "change": 14
+  },
+  "public_scope": "aggregate only"
+}
